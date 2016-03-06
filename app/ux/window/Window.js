@@ -1,10 +1,4 @@
-/**
- * Created by JetBrains PhpStorm.
- * User: Ernesto J. Rodriguez (Certun)
- * File:
- * Date: 10/31/11
- * Time: 3:21 PM
- */
+
 Ext.define('App.ux.window.Window', {
 	extend       : 'Ext.window.Window',
 	autoHeight   : true,

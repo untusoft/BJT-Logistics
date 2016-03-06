@@ -1,10 +1,4 @@
-/**
- * Created by JetBrains PhpStorm.
- * User: Ernesto J. Rodriguez (Certun)
- * File:
- * Date: 10/29/11
- * Time: 4:45 PM
- */
+
 Ext.define('App.ux.combo.TimeZone',
 {
 	extend       : 'Ext.form.ComboBox',

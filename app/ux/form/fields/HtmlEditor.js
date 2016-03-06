@@ -1,10 +1,4 @@
-/**
- * Created by JetBrains PhpStorm.
- * User: Ernesto J. Rodriguez (Certun)
- * File:
- * Date: 11/1/11
- * Time: 12:37 PM
- */
+
 Ext.define('App.ux.form.fields.HtmlEditor', {
 	extend: 'Ext.form.field.HtmlEditor',
 	alias: 'widget.customhtmleditor',
