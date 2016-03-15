@@ -2,7 +2,7 @@
 
 if (!isset($_SESSION))
 {
-	session_name('GaiaEHR');
+	session_name('BJTApp');
 	session_start();
 	session_cache_limiter('private');
 }

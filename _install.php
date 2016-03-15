@@ -1,11 +1,11 @@
 <?php
 
-if(!defined('_GaiaEXEC')) die('No direct access allowed.');
+if(!defined('_BjtEXEC')) die('No direct access allowed.');
 ?>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <title>GaiaEHR :: New Site Setup</title>
+    <title>BJTApp :: New Site Setup</title>
     <script type="text/javascript" src="lib/<?php print EXTJS ?>/ext-all.js"></script>
     <link rel="stylesheet" type="text/css" href="resources/css/ext-all.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style_newui.css">
@@ -30,6 +30,8 @@ if(!defined('_GaiaEXEC')) die('No direct access allowed.');
             enabled: true,
             disableCaching: false,
             paths: {
+                'Ext': 'lib/<?php print EXTJS ?>/src',
+                'Ext.ux': 'lib/<?php print EXTJS ?>/ux',
                 'App': 'app'
             }
         });
@@ -50,7 +52,7 @@ if(!defined('_GaiaEXEC')) die('No direct access allowed.');
 <body id="login">
 <div id="bg_logo"></div>
 <div id="copyright">
-	<div>Copyright (C) 2011 GaiaEHR (Electronic Health Records) |:| Open Source Software operating under GPLv3 |:| v<?php print VERSION ?></div>
+	<div>Copyright (C) 2015 UntuSoft |:| v<?php print VERSION ?></div>
 </div>
 </body>
 </html>

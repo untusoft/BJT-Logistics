@@ -1,6 +1,6 @@
 <?php
 
-if (!defined('_GaiaEXEC')) die('No direct access allowed.');
+if (!defined('_BjtEXEC')) die('No direct access allowed.');
 ?>
 <html>
 	<head>
@@ -18,7 +18,7 @@ if (!defined('_GaiaEXEC')) die('No direct access allowed.');
 				AppClipboard;
 		</script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Untusoft :: Loading...</title>
+		<title>BJT App :: Loading...</title>
 		<link rel="stylesheet" type="text/css" href="resources/css/dashboard.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/ext-all-gray.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style_newui.css">
@@ -88,7 +88,7 @@ if (!defined('_GaiaEXEC')) die('No direct access allowed.');
                 disableCaching: false,
                 paths: {
                     'Ext': 'lib/<?php print EXTJS ?>/src',
-                    'Ext.ux': 'lib/extjs-4.2.1/examples/ux',
+                    'Ext.ux': 'lib/<?php print EXTJS ?>/ux',
                     'App': 'app',
                     'Modules': 'modules',
                     'Extensible': 'lib/extensible-1.5.1/src'

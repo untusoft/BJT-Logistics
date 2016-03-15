@@ -1,12 +1,12 @@
 <?php
 if(!isset($_SESSION)){
-	@session_name('GaiaEHR');
+	@session_name('BJTApp');
 	@session_start();
 	@session_cache_limiter('private');
 }
 $site = isset($_SESSION['user']['site']) ? $_SESSION['user']['site'] : 'default';
-if(!defined('_GaiaEXEC'))
-	define('_GaiaEXEC', 1);
+if(!defined('_BjtEXEC'))
+	define('_BjtEXEC', 1);
 require_once(str_replace('\\', '/', dirname(dirname(__FILE__))) . '/registry.php');
 $conf = ROOT . '/sites/' . $site . '/conf.php';
 if(file_exists($conf)){

@@ -1,6 +1,6 @@
 <?php
 
-if (!defined('_GaiaEXEC')) die('No direct access allowed.');
+if (!defined('_BjtEXEC')) die('No direct access allowed.');
 ?>
 <html>
 	<head>

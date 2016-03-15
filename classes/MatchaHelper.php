@@ -1,7 +1,7 @@
 <?php
 
 if(!isset($_SESSION)){
-	@session_name('GaiaEHR');
+	@session_name('BJTApp');
 	@session_start();
 	@session_cache_limiter('private');
 }
@@ -161,8 +161,8 @@ class MatchaHelper extends Matcha {
 			unset($BindFieldsArray['__utma']);
 		if(isset($BindFieldsArray['__utmz']))
 			unset($BindFieldsArray['__utmz']);
-		if(isset($BindFieldsArray['GaiaEHR']))
-			unset($BindFieldsArray['GaiaEHR']);
+		if(isset($BindFieldsArray['BJTApp']))
+			unset($BindFieldsArray['BJTApp']);
 		/**
 		 * Step 1 -  Create the INSERT or UPDATE Clause
 		 */

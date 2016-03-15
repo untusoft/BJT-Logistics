@@ -1,5 +1,5 @@
 <?php
-if(!defined('_GaiaEXEC')) die('No direct access allowed.');
+if(!defined('_BjtEXEC')) die('No direct access allowed.');
 if(!defined('HTTP')){
 	if(!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443)){
 		define('HTTP', 'https');
@@ -8,7 +8,7 @@ if(!defined('HTTP')){
 	}
 }
 if(!defined('HOST')) define('HOST', isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost');
-if(!defined('URI'))	define('URI', isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/gaiaehr/');
+if(!defined('URI'))	define('URI', isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/bjt/');
 if(!defined('ROOT')) define('ROOT', str_replace('\\', '/', dirname(__FILE__)));
 if(!defined('URL')){
 	$URL = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : HTTP . '://' . HOST . URI;

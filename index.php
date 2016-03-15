@@ -1,9 +1,9 @@
 <?php
 
-session_name('GaiaEHR');
+session_name('BJTApp');
 session_start();
 session_cache_limiter('private');
-define('_GaiaEXEC', 1);
+define('_BjtEXEC', 1);
 
 if(isset($_SESSION['hooks'])){
 	unset($_SESSION['hooks']);

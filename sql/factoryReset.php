@@ -7,11 +7,11 @@
  * To change this template use File | Settings | File Templates.
  */
 if(!isset($_SESSION)){
-    session_name ('GaiaEHR');
+    session_name ('BJTApp');
     session_start();
     session_cache_limiter('private');
 }
-define('_GaiaEXEC' , 1);
+define('_BjtEXEC' , 1);
 include_once(dirname(dirname(__FILE__)).'/registry.php');
 include_once(dirname(dirname(__FILE__)).'/classes/MatchaHelper.php');
 

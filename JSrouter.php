@@ -1,12 +1,12 @@
 <?php
 
 if(!isset($_SESSION)){
-	session_name('GaiaEHR');
+	session_name('BJTApp');
 	session_start();
 	session_cache_limiter('private');
 }
 ob_start();
-if(!defined('_GaiaEXEC')) define('_GaiaEXEC', 1);
+if(!defined('_BjtEXEC')) define('_BjtEXEC', 1);
 require_once(dirname(__FILE__) . '/registry.php');
 require_once(dirname(__FILE__) . '/sites/'.$_REQUEST['site'].'/conf.php');
 require_once(dirname(__FILE__) . '/classes/MatchaHelper.php');

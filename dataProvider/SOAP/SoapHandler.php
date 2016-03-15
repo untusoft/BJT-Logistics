@@ -23,8 +23,8 @@ class SoapHandler {
 		$this->params = $params;
 		$this->site = isset($params->Site) ? $params->Site : 'default';
 		$this->facility = isset($params->Facility) ? $params->Facility : '1';
-		if(!defined('_GaiaEXEC'))
-			define('_GaiaEXEC', 1);
+		if(!defined('_BjtEXEC'))
+			define('_BjtEXEC', 1);
 		include_once(str_replace('\\', '/', dirname(dirname(dirname(__FILE__)))) . '/registry.php');
 		include_once(ROOT . "/sites/{$this->site}/conf.php");
 		include_once(ROOT . '/classes/MatchaHelper.php');

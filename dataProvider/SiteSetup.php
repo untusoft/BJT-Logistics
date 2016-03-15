@@ -397,10 +397,9 @@ class SiteSetup {
 		$admin->lname = 'Administrator';
 		$admin->username = $params->adminUsername;
 		$admin->password = $params->adminPassword;
-		$admin->authorized = 1;
+        $admin->authorized = 1;
 		$admin->active = 1;
 		$admin->role_id = 8;
-		$admin->facility_id = 1;
 		$u->addUser($admin);
 		session_unset();
 		session_destroy();

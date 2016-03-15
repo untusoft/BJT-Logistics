@@ -1,7 +1,7 @@
 <?php
 
 if(!isset($_SESSION)){
-	session_name('GaiaEHR');
+	session_name('BJTApp');
 	session_start();
 	session_cache_limiter('private');
 }
@@ -9,7 +9,7 @@ if(!isset($_SESSION)){
 //error_reporting(0);
 //@ini_set('display_errors', 0);
 
-define('_GaiaEXEC', 1);
+define('_BjtEXEC', 1);
 
 class BogusAction
 {
